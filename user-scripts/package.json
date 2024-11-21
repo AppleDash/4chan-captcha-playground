@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "build": "tsc --noEmit && node build.js"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.14.0",
+        "@types/eslint__js": "^8.42.3",
+        "esbuild": "^0.24.0",
+        "esbuild-plugin-external-global": "^1.0.1",
+        "eslint": "^9.14.0",
+        "typescript": "^5.6.3",
+        "typescript-eslint": "^8.13.0",
+        "@tensorflow/tfjs": "^4.22.0"
+    },
+    "type": "module"
+}

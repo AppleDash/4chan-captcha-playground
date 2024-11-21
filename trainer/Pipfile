@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+tensorflow = {extras = ["and-cuda"], version = "*"}
+numpy = "*"
+keras = "*"
+pillow = "*"
+tf-keras = "*"
+opencv-python = "*"
+pytesseract = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
