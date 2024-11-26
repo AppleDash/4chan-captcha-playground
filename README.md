@@ -6,6 +6,8 @@ This project was entered into as a learning experience, to enhance my knowledge 
 
 A write-up with more detail on this project is available on my blog.
 
+![](images/demo.gif)
+
 ## Subprojects
 More information on each project is available in that project's `README.md`.
 
