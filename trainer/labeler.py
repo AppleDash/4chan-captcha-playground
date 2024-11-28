@@ -8,7 +8,9 @@ from pathlib import Path
 from anticaptchaofficial.imagecaptcha import imagecaptcha
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-CHARACTER_SET = ['0', '2', '4', '8', 'A', 'D', 'G', 'H', 'J', 'K', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'X', 'Y']
+from common import CHARACTER_SET
+
+CHARACTER_SET = CHARACTER_SET[1:] # Get rid of the blank/unknown token.
 
 INPUT = 'unsolved/'
 OUTPUT = 'solved/'

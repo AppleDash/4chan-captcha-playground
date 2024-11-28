@@ -4,7 +4,7 @@ A project to train a machine learning model to solve the 4Chan CAPTCHA.
 
 This project was entered into as a learning experience, to enhance my knowledge of machine learning, as well as TensorFlow specifically. At the end, I wanted to have a trained machine learning model that runs in the browser to reliably (at least 80% accuracy, >90% preferred) solve the 4Chan CAPTCHA. These goals were achieved.
 
-A write-up with more detail on this project is available on my blog.
+A write-up with more detail on this project is available on my [blog](https://blackjack.codes/blog/breaking-the-4chan-captcha/).
 
 ![](images/demo.gif)
 

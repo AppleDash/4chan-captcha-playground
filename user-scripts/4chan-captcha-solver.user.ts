@@ -101,7 +101,7 @@ function ctcDecode(yPred: tf.Tensor) {
 
   for (const label of rawValues[0]) {
     if (label !== 0 && label !== prevLabel) {
-      result += CHARACTER_SET[label] || ''; // Ignore out-of-vocabulary tokens.
+      result += CHARACTER_SET[label] ?? ''; // Ignore out-of-vocabulary tokens.
     }
     prevLabel = label;
   }

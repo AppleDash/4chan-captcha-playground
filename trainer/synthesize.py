@@ -188,7 +188,7 @@ def main():
     for _ in range(int(args.number)):
         layout = np.random.choice(
             LAYOUTS, 1,
-            # We have less 5-char layouts, so weight them a little heavier.
+            # We have fewer 5-char layouts in the LAYOUTS array, so weight them a little heavier.
             p=[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2, 0.2]
         )[0]
 
