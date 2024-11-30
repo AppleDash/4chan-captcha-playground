@@ -167,7 +167,7 @@ async function findAndSolve(selector: string, prevElem?: HTMLElement) {
 
       const predictedText = ctcDecode(prediction);
 
-      if (predictedText.length < 5) {
+      if (predictedText.length < 4) {
         solField.placeholder = 'Failed to solve!';
         solField.value = '';
       } else {
